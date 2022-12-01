@@ -110,10 +110,10 @@ const USER_CONFIG = {
       name: '宝贝',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       // 使用其他通道时，请严格按照各个通道的教程进行填写
-      id: '',
+      id: 'oCr0j51VqUNY8mtn5gQHQ3TT9E1s',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       // 使用其他通道时，请填写 config/template-config.cjs 中某个想要使用的模板的id
-      useTemplateId: 'oCr0j59_Pq2RR6ffEl3su02lwP-I',
+      useTemplateId: '	sjYrFryCIiOMPJ_N5o_1kv4SXF8R4BDT-OKtLwdKsto',
       // 所在省份或城市，也可以不填
       province: '辽宁',
       // 所在城市或县区
@@ -207,11 +207,11 @@ const USER_CONFIG = {
       },
     },
     {
-      name: '老婆1',
-      id: '',
-      useTemplateId: '',
-      province: '',
-      city: '',
+      name: '宝贝',
+      id: 'oCr0j51VqUNY8mtn5gQHQ3TT9E1s',
+      useTemplateId: 'sjYrFryCIiOMPJ_N5o_1kv4SXF8R4BDT-OKtLwdKsto',
+      province: '辽宁',
+      city: '大连',
       horoscopeDate: '',
       horoscopeDateType: '',
       openUrl: 'https://wangxinleo.cn',
@@ -255,7 +255,7 @@ const USER_CONFIG = {
 
   // 使用微信测试号：【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
   // 使用其他通道时，请填写 config/template-config.cjs 中【推送完成提醒】模板的id
-  CALLBACK_TEMPLATE_ID: '',
+  CALLBACK_TEMPLATE_ID: 'sjYrFryCIiOMPJ_N5o_1kv4SXF8R4BDT-OKtLwdKsto',
 
   // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
   CALLBACK_USERS: [
