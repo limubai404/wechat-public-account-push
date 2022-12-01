@@ -82,7 +82,7 @@ const USER_CONFIG = {
     eveningGreeting: false,
   
     // 天行天气（展示未来N天，最多7天）, 填 0 则不使用，按需关闭不使用的功能可以提高运行速度
-    weather: 0,
+    weather: 2,
   
     // 全网热搜榜（展示N条，最多30条）, 填 0 则不使用，按需关闭不使用的功能可以提高运行速度
     networkHot: 0,
@@ -113,7 +113,7 @@ const USER_CONFIG = {
       id: 'oCr0j51VqUNY8mtn5gQHQ3TT9E1s',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       // 使用其他通道时，请填写 config/template-config.cjs 中某个想要使用的模板的id
-      useTemplateId: '	sjYrFryCIiOMPJ_N5o_1kv4SXF8R4BDT-OKtLwdKsto',
+      useTemplateId: 'pKHauA94QVsE8aah8_w8rqv6lZLs0l0oMBJvdIKvnjo',
       // 所在省份或城市，也可以不填
       province: '辽宁',
       // 所在城市或县区
@@ -209,7 +209,7 @@ const USER_CONFIG = {
     {
       name: '宝贝',
       id: 'oCr0j51VqUNY8mtn5gQHQ3TT9E1s',
-      useTemplateId: 'sjYrFryCIiOMPJ_N5o_1kv4SXF8R4BDT-OKtLwdKsto',
+      useTemplateId: 'pKHauA94QVsE8aah8_w8rqv6lZLs0l0oMBJvdIKvnjo',
       province: '辽宁',
       city: '大连',
       horoscopeDate: '',
@@ -255,7 +255,7 @@ const USER_CONFIG = {
 
   // 使用微信测试号：【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
   // 使用其他通道时，请填写 config/template-config.cjs 中【推送完成提醒】模板的id
-  CALLBACK_TEMPLATE_ID: 'sjYrFryCIiOMPJ_N5o_1kv4SXF8R4BDT-OKtLwdKsto',
+  CALLBACK_TEMPLATE_ID: 'pKHauA94QVsE8aah8_w8rqv6lZLs0l0oMBJvdIKvnjo',
 
   // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
   CALLBACK_USERS: [
